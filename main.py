@@ -26,8 +26,7 @@ def main():
     print(f"Total is: {sum(rpsList)}")
 
     rpsListNew = d2.parseDataNewStrat("Data/rpsData.txt")
-    print(f"Total with new strategy is: {sum(rpsListNew)}")
-
+    print(f"Total with new strategy is: {sum(rpsListNew)}")     
 
     print("Day 3")
     s = d3.rucksack("Data/bagData.txt")
